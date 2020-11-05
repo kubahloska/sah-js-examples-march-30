@@ -1,4 +1,18 @@
-console.log("Break until 17:10");
+// 4th part
+
+$('p').css('background', 'purple');
+
+$('p').text('<strong>hallo world</strong>');
+
+$('p').html('<strong>hallo world</strong>');
+$('p').append('<strong>another</strong>');
+
+$('button').click(()=> {
+    $('.first').toggleClass('hidden');
+})
+
+// From 1st part to the 3rd
+console.log("Break until 18:11");
 
 console.log("JavaScript is working!");
 
